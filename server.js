@@ -5,22 +5,33 @@ var path = require('path');
 var app = express();
 app.use(morgan('combined'));
 
-var articleOne = {
+var articles = {
+    'article-one': {
     title: "Article One| Jery George",
     heading: "Article ONe",
     date: "Sep 20, 2016",
     content: `  <p>
                     This is the content of my first article.This is the content of my first article.This is the content of my first article.This is the content of my first article.This is the content of my first article.This is the content of my first article.This is the content of my first article.This is the content of my first article.This is the content of my first article.This is the content of my first article.This is the content of my first article.This is the content of my first article.This is the content of my first article.This is the content of my first article.
                 </p>
-                
-                 <p>
-                    This is the content of my first article.This is the content of my first article.This is the content of my first article.This is the content of my first article.This is the content of my first article.This is the content of my first article.This is the content of my first article.This is the content of my first article.This is the content of my first article.This is the content of my first article.This is the content of my first article.This is the content of my first article.This is the content of my first article.This is the content of my first article.
-                </p>
-                <p>
-                    This is the content of my first article.This is the content of my first article.This is the content of my first article.This is the content of my first article.This is the content of my first article.This is the content of my first article.This is the content of my first article.This is the content of my first article.This is the content of my first article.This is the content of my first article.This is the content of my first article.This is the content of my first article.This is the content of my first article.This is the content of my first article.
-                </p>
 `
  
+},
+    'article-two': {
+    title: "Article Two| Jery George",
+    heading: "Article Two",
+    date: "Sep 20, 2016",
+    content: `<p>
+                    This is the content of my first article.This is the content of my first article.This is the content o
+                </p>`
+},
+    'article-three': {
+    title: "Article Three| Jery George",
+    heading: "Article OThree",
+    date: "Sep 20, 2016",
+    content: `<p>
+                    This is the content of my first article.This is the content of my first article.This is the content o
+                </p>`
+}
 };
 
 
