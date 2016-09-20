@@ -12,8 +12,7 @@ var articles = {
     date: "Sep 20, 2016",
     content: `  <p>
                     This is the content of my first article.This is the content of my first article.This is the content of my first article.This is the content of my first article.This is the content of my first article.This is the content of my first article.This is the content of my first article.This is the content of my first article.This is the content of my first article.This is the content of my first article.This is the content of my first article.This is the content of my first article.This is the content of my first article.This is the content of my first article.
-                </p>
-`
+                </p>`
  
 },
     'article-two': {
@@ -77,7 +76,7 @@ app.get('/', function (req, res) {
 
 
 app.get('/:articleName', function (req, res) {
-    var articleName = req.params.articleName
+    var articleName = req.params.articleName;
     res.send(createTemplate(articles[articleName]));
 });
 
