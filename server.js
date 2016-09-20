@@ -75,14 +75,14 @@ app.get('/', function (req, res) {
 
 
 app.get('/article-one', function (req, res) {
-  res.send(createTemplate(articles.articleOne));
+  res.send(createTemplate(articles.article-one));
 });
 
 app.get('/article-two', function (req, res) {
-  res.send(createTemplate(articles.articleTwo));
+  res.send(createTemplate(articles.article-two));
 });
 app.get('/article-three', function (req, res) {
-  res.send(createTemplate(articles.articleThree));
+  res.send(createTemplate(articles.article-three));
 });
 
 
