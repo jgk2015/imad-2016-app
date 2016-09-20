@@ -14,21 +14,16 @@ var articles = {
  
 },
     'article-two': {
-    title: "Article Two| Jery George",
+    title: "Article Two",
     heading: "Article Two",
     date: "Sep 20, 2016",
-    content: `<p>
-                    This is the content of my first article.This is the content of my first article.This is the content o
-                </p>`
+    content: `<p>Content for Article Two.</p>`
 },
     'article-three': {
-    title: "Article Three| Jery George",
+    title: "Article Three",
     heading: "Article OThree",
     date: "Sep 20, 2016",
-    content: `<p>
-                    This is the content of my first article.This is the content of my first article.This is the content o
-                </p>`
-}
+    content: `<p>Content for Article Three/p>`}
 };
 
 
