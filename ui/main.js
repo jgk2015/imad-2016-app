@@ -1,7 +1,7 @@
 var button = document.getElementById('counter');
 
 
-button.onclick(){
+button.onclick = function(){
     
     var request = new XMLHttpRequest();
     
@@ -17,4 +17,4 @@ button.onclick(){
     
     request.open('GET', 'http://jgk2015.imad.hasura-app.io/counter', true);
     request.send(null);
-}
+};
