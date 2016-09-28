@@ -1,19 +1,9 @@
-
-var element = document.getElementById('main-text');
-
-element.innerText = "New value set by js code";
-
-var img = document.getElementById('madi');
-
-var marginLeft = 0;
-
-function moveRight(){
-    marginLeft = marginLeft + 2;
-    img.style.maginLeft = marginLeft + 'px';
-}
-
-img.onclick = function() {
-    var interval = setInterval(moveRight, 50);
-
+var button = document.getElementById('counter');
+var counter = 0;
+button.onClick(){
+    
+    
+    counter = counter + 1;
+    var span = document.getElementByID('count');
+    span.innerHTML = counter.toString();
 };
-//comment
