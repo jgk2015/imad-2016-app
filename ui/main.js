@@ -15,5 +15,6 @@ button.onClick(){
         }
     };
     
-    request.open('GET', 'http://jgk2015.imad.hasura-app.io/counter');
-};
+    request.open('GET', 'http://jgk2015.imad.hasura-app.io/counter', true);
+    request.send(null);
+}
