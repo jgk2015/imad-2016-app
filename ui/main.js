@@ -18,3 +18,14 @@ button.onclick = function(){
     request.open('GET', 'http://jgk2015.imad.hasura-app.io/counter', true);
     request.send(null);
 };
+
+var nameInput = document.getElementById('name');
+var name = nameInput.value;
+var submit = document.getElementById('submit-btn');
+
+submit.onclick = function(){
+  
+  
+  var names = ['name1', 'name2', 'name3']  ;
+};
+
